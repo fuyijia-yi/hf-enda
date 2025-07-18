@@ -1,5 +1,4 @@
 FROM chaoszhu/easynode AS base
-FROM nginx:alpine
 RUN apk add --no-cache python3 python3-dev py3-pip git
 
 RUN mkdir -p /easynode/app/logs && \
